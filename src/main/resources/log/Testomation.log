@@ -1,0 +1,27 @@
+2019-07-08 16:14:46 INFO  Log:24 - HomeFeature :: TestScript is Start
+2019-07-08 16:14:47 INFO  Log:24 - User navigates to HomePage
+2019-07-08 16:14:47 INFO  Log:24 - Navigating to: https://www-qa2.safeway.com/home.html
+2019-07-08 16:15:18 ERROR Log:34 - Exception in navigateToUrl :timeout
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'INPF18G80D', ip: '10.31.24.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bvatrapu\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true, webdriver.remote.sessionid: ecab8fb2ab1030ee1590d2d4714...}
+Session ID: ecab8fb2ab1030ee1590d2d4714c5eb5
+2019-07-08 16:17:20 INFO  Log:24 - HomeFeature :: TestScript is Start
+2019-07-08 16:17:27 INFO  Log:24 - Clear All Cookies
+2019-07-08 16:17:27 INFO  Log:24 - User navigates to HomePage
+2019-07-08 16:17:27 INFO  Log:24 - Navigating to: https://www-qa2.safeway.com/home.html
+2019-07-08 16:17:58 ERROR Log:34 - Exception in navigateToUrl :timeout
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'INPF18G80D', ip: '10.31.24.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bvatrapu\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true, webdriver.remote.sessionid: de3c06f3608be3663caf7fad2e6...}
+Session ID: de3c06f3608be3663caf7fad2e6c584c
+2019-07-08 16:17:58 INFO  Log:24 - User Clicks Sign In/Up  Button in header and modal
+2019-07-08 16:17:58 INFO  Log:24 - User Clicks Sign In Button in header and modal
