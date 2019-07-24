@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite" parallel="tests" thread-count="10" verbose="1">
+    <!-- PROD, QA1 -->
+    <parameter name="environment" value="qa2"/>
+    <!-- DESKTOP, MOBILE -->
+    <parameter name="platform" value="DESKTOP"/>
+    <!-- WEB, HEADLESS, APP, API -->
+    <parameter name="service" value="WEB"/>
+    <!--  Chrome or incognito or chromespoofer, Firefox/ff, Safari,  IE/Internet Explorer/IE11 EDGE -->
+    <parameter name="browser" value="Chrome"/>
+
+    <!--  safeway, vons -->
+    <parameter name="banner" value="safeway"/>
+    <!-- Listeners class -->
+    <listeners>
+        <listener class-name="com.Safeway.listeners.TestListener"/>
+    </listeners>
+
+    <!-- Tests - Feature wise cucumber Runners classes -->
+    <test name="Test-1">
+        <classes>
+            <class name="com.Safeway.runners.HomeFeatureRunner" />
+            <class name="com.Safeway.runners.SignInFeatureRunner" />
+        </classes>
+    </test>
+
+</suite>
+

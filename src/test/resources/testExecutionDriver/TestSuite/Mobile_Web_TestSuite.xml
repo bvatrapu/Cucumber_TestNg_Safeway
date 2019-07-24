@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke Suite" parallel="tests" thread-count="10" verbose="1">
+    <!-- PROD, QA1 -->
+    <parameter name="environment" value="QA2"/>
+    <!-- DESKTOP, MOBILE -->
+    <parameter name="platform" value="MOBILE"/>
+    <!-- WEB, HEADLESS, APP, API -->
+    <parameter name="service" value="WEB"/>
+    <!-- cloud, local -->
+    <parameter name="network" value="cloud"/>
+    <!--    -->
+    <parameter name="mobileDevice" value="Pixel3"/>
+
+    <!-- Listeners class -->
+    <listeners>
+        <listener class-name="com.Safeway.listeners.TestListener"/>
+    </listeners>
+
+    <!-- Tests - Feature wise cucumber Runners classes -->
+    <test name="Test-1">
+        <classes>
+            <class name="com.Safeway.runners.HomeFeatureRunner" />
+            <class name="com.Safeway.runners.ReservationFeatureRunner" />
+        </classes>
+    </test>
+</suite>
+
